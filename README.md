@@ -22,7 +22,7 @@ docker run -p 8000:8000 ai-app
 
 curl -X POST "http://localhost:8000/predict" -H "Content-Type: application/json" -d '{"text": "Win big prize"}'
 
- Upcoming
+ Work in progress ...
 
 - Full monitoring stack: Prometheus + Grafana + Loki
 
