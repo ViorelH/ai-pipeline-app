@@ -30,5 +30,24 @@ curl -X POST "http://localhost:8000/predict" -H "Content-Type: application/json"
 
 - Deployment to Kubernetes
 
+##  Monitoring Stack
+
+- Prometheus (metrics)
+- Grafana (dashboards, http://localhost:3000)
+- Loki + Promtail (logs)
+
+### Start Full Pipeline
+
+docker-compose up --build
+
+Access Dashboards:
+
+FastAPI App: http://localhost:8000
+
+Prometheus: http://localhost:9090
+
+Grafana: http://localhost:3000 (user: ***** / pass: *****)
+
+
 Author
 ViorelH — Project 12: Real-Time AI Pipeline
