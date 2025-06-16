@@ -1,0 +1,34 @@
+# Real-Time AI App Pipeline with ML + CI/CD + Monitoring
+
+✅ ML Spam Classifier  
+✅ REST API with FastAPI  
+✅ Dockerized Deployment  
+✅ CI Pipeline with GitHub Actions  
+✅ Monitoring stack coming next!
+
+##  Usage
+
+1 Train model:
+
+python ml/train_model.py
+
+2 Build & run app:
+
+docker build -t ai-app .
+docker run -p 8000:8000 ai-app
+
+3 Test API:
+
+
+curl -X POST "http://localhost:8000/predict" -H "Content-Type: application/json" -d '{"text": "Win big prize"}'
+
+ Upcoming
+
+- Full monitoring stack: Prometheus + Grafana + Loki
+
+- Docker Compose orchestration
+
+- Deployment to Kubernetes
+
+Author
+ViorelH — Project 12: Real-Time AI Pipeline
