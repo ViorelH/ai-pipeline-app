@@ -1,10 +1,10 @@
 # Real-Time AI App Pipeline with ML + CI/CD + Monitoring
 
-✅ ML Spam Classifier  
-✅ REST API with FastAPI  
-✅ Dockerized Deployment  
-✅ CI Pipeline with GitHub Actions  
-✅ Monitoring stack coming next!
+ ML Spam Classifier  
+ REST API with FastAPI  
+ Dockerized Deployment  
+ CI Pipeline with GitHub Actions  
+ Monitoring stack coming next!
 
 ##  Usage
 
