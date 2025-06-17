@@ -4,7 +4,7 @@ import pickle
 
 app = FastAPI()
 
-# Load model
+# Loading model
 with open("model.pkl", "rb") as f:
     vectorizer, model = pickle.load(f)
 
